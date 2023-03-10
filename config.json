@@ -1,6 +1,6 @@
 {
-  "defaultHomeServer": "thirdroom.io",
-  "homeserverList": ["thirdroom.io", "matrix.org"],
+  "defaultHomeServer": "http://localhost:8008/",
+  "homeserverList": ["thirdroom.io", "matrix.org", "http://localhost:8008/"],
   "onboardingVersion": 1,
   "whatsNewVersion": 1,
   "bugReportEndpointUrl": "https://element.io/bugreports/submit",

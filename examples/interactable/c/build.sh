@@ -14,3 +14,5 @@ emcc \
   -Wl,--import-memory \
   -o ./build/interactable-example.wasm \
   src/*.c \
+
+ls -hal src/../../../../src/engine

@@ -8,7 +8,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build && npm run docs:build && npm run build-storybook",
     "build:scripting-runtime": "./src/engine/scripting/emscripten/build.sh",
     "build:examples": "./examples/build.sh",
